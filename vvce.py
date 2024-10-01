@@ -3,8 +3,12 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #define MAX 5
+<<<<<<< HEAD
 #define high 7
 
+=======
+#define new 8
+>>>>>>> 5d3efe6ac339df08b8018de84115b13a7a3dc03e
 void DFS(int adj[][MAX],int visited[],int start){
     int stack[MAX];
     int top=-1;
